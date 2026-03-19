@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0f1a;
+  --bg-raised: #12172a;
+  --bg-card: #181e30;
+  --fg: #edf0f7;
+  --fg-muted: #8a94a8;
+  --fg-dim: #5c657a;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.14);
+  --accent: #22d3ee;
+  --shadow-card: 0 12px 40px -16px rgba(0, 0, 0, 0.6);
+  --shadow-heavy: 0 32px 80px -24px rgba(0, 0, 0, 0.8);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: rgba(34, 211, 238, 0.25);
+    color: #fff;
+  }
+
+  a {
+    outline-offset: 4px;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-space-grotesk), system-ui, sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-inset {
+    padding-inline: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .section-inset {
+      padding-inline: 2.25rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-inset {
+      padding-inline: 2.75rem;
+    }
+  }
+
+  .section-panel {
+    border: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(24, 30, 48, 0.72), rgba(18, 23, 42, 0.9));
+    box-shadow: var(--shadow-card);
+  }
+
+  .focus-ring {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 4px;
+  }
+}
