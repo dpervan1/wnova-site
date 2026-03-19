@@ -86,6 +86,8 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ message: "Upit je uspješno poslan." });
   } catch (error) {
+    console.error("Contact form send failed", error);
+
     return NextResponse.json(
       {
         message:
