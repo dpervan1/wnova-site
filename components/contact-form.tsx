@@ -26,15 +26,9 @@ const serviceOptions = [
   "AI integracije",
   "Digitalni marketing",
   "Održavanje i podrška",
-  "Web stranica + SEO",
-  "Web stranica + oglasi",
-  "Webshop + SEO",
-  "Webshop + oglasi",
-  "Web stranica + održavanje",
-  "Webshop + održavanje",
-  "AI integracije + automatizacija",
-  "SEO + Google Ads + Meta oglasi",
-  "Kompletna online prisutnost",
+  "SEO i oglasi",
+  "Redizajn postojeće stranice",
+  "Kompletan paket",
   "Drugo",
 ] as const;
 

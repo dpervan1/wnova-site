@@ -57,7 +57,7 @@ export async function POST(request: Request) {
 
     const transporter = getTransporter();
     const from = process.env.SMTP_FROM || process.env.SMTP_USER;
-    const to = process.env.CONTACT_TO || "info@wnova.cc";
+    const to = process.env.CONTACT_TO || "project@wnova.cc";
 
     await transporter.sendMail({
       from,

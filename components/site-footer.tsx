@@ -77,10 +77,10 @@ export function SiteFooter() {
               <ul className="mt-4 space-y-2.5">
                 <li>
                   <a
-                    href="mailto:info@wnova.cc"
+                    href="mailto:project@wnova.cc"
                     className="text-sm text-[var(--fg-muted)] transition hover:text-white"
                   >
-                    info@wnova.cc
+                    project@wnova.cc
                   </a>
                 </li>
               </ul>

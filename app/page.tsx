@@ -14,7 +14,7 @@ const organizationSchema = {
   name: "WEBNOVA",
   url: "https://wnova.cc",
   logo: "https://wnova.cc/brand/wnova-logo-main.png",
-  email: "info@wnova.cc",
+  email: "project@wnova.cc",
   sameAs: ["https://www.instagram.com/wnova.cc/"],
   description:
     "WEBNOVA izrađuje web stranice, webshopove i digitalne kampanje za firme koje žele ozbiljniji online nastup, više upita i bolju vidljivost.",
@@ -23,7 +23,7 @@ const organizationSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "sales",
-    email: "info@wnova.cc",
+    email: "project@wnova.cc",
     availableLanguage: ["hr", "en"],
   },
   serviceType: [

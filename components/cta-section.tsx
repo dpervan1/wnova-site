@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ContactForm } from "@/components/contact-form";
-import { EmailIcon, WhatsAppIcon } from "@/components/social-icons";
+import { EmailIcon } from "@/components/social-icons";
 
 export function CtaSection() {
   return (
@@ -22,20 +22,11 @@ export function CtaSection() {
 
             <div className="mt-8 flex flex-col gap-3">
               <Link
-                href="mailto:info@wnova.cc"
+                href="mailto:project@wnova.cc"
                 className="inline-flex items-center gap-2 text-sm text-[var(--fg-muted)] transition hover:text-white"
               >
                 <EmailIcon className="h-4 w-4" />
-                info@wnova.cc
-              </Link>
-              <Link
-                href="https://wa.me/385958021920"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-[var(--fg-muted)] transition hover:text-white"
-              >
-                <WhatsAppIcon className="h-4 w-4" />
-                WhatsApp
+                project@wnova.cc
               </Link>
             </div>
           </div>

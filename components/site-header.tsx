@@ -8,7 +8,6 @@ const navigation = [
   { label: "Usluge", href: "#usluge" },
   { label: "Paketi", href: "#paketi" },
   { label: "O nama", href: "#o-nama" },
-  { label: "Kontakt", href: "#kontakt" },
 ] as const;
 
 export function SiteHeader() {
@@ -52,7 +51,7 @@ export function SiteHeader() {
               href="#kontakt"
               className="hidden h-9 items-center rounded-full bg-[var(--accent)] px-5 text-xs font-semibold text-[var(--bg)] transition hover:brightness-110 sm:inline-flex"
             >
-              Zatraži ponudu
+              Kontakt
             </Link>
 
             {/* Mobile toggle */}
@@ -105,7 +104,7 @@ export function SiteHeader() {
                   onClick={() => setOpen(false)}
                   className="block rounded-full bg-[var(--accent)] py-2.5 text-center text-sm font-semibold text-[var(--bg)] transition hover:brightness-110"
                 >
-                  Zatraži ponudu
+                  Kontakt
                 </Link>
               </li>
             </ul>

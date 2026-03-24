@@ -47,11 +47,11 @@ export function ServicesSection() {
           </p>
 
           <h2 className="font-heading mt-4 text-[clamp(1.8rem,4.5vw,3.5rem)] leading-[1.05] font-bold tracking-[-0.03em] text-white text-balance">
-            Jasna ponuda, bez mutnih stavki.
+            Jasna ponuda za ono što ti stvarno treba.
           </h2>
 
           <p className="mt-5 max-w-2xl text-base leading-7 text-[var(--fg-muted)] sm:text-lg sm:leading-8">
-            Odaberi ono što ti stvarno treba sada, a ne paket napunjen stvarima koje ti ne koriste.
+            Bez nepotrebnih stavki i bez kompliciranja. Odaberi uslugu koja odgovara projektu koji želiš pokrenuti.
           </p>
         </div>
 

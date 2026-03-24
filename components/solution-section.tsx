@@ -38,7 +38,7 @@ export function SolutionSection() {
           </p>
 
           <h2 className="font-heading mt-4 text-[clamp(1.8rem,4.5vw,3.5rem)] leading-[1.05] font-bold tracking-[-0.03em] text-white text-balance">
-            Radimo web koji izgleda ozbiljno i ima jasan posao.
+            Kompletna rješenja za digitalni rast. Sve na jednom mjestu.
           </h2>
 
           <p className="mt-5 max-w-2xl text-base leading-7 text-[var(--fg-muted)] sm:text-lg sm:leading-8">

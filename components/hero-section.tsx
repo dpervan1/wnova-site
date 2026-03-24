@@ -20,7 +20,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-5 text-base tracking-[0.2em] font-medium text-[var(--fg-muted)] uppercase sm:mt-6 sm:text-xl sm:tracking-[0.26em]">
-          Web koji izgleda ozbiljno.
+          Brzo. Jasno. Moderno.
         </p>
 
         <a
