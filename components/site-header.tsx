@@ -5,9 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { label: "Usluge", href: "#usluge" },
-  { label: "Paketi", href: "#paketi" },
-  { label: "O nama", href: "#o-nama" },
+  { label: "Usluge", href: "/usluge" },
+  { label: "Paketi", href: "/paketi" },
+  { label: "O nama", href: "/o-nama" },
 ] as const;
 
 export function SiteHeader() {
@@ -48,7 +48,7 @@ export function SiteHeader() {
 
           <div className="flex items-center gap-3">
             <Link
-              href="#kontakt"
+              href="/kontakt"
               className="hidden h-9 items-center rounded-full bg-[var(--accent)] px-5 text-xs font-semibold text-[var(--bg)] transition hover:brightness-110 sm:inline-flex"
             >
               Kontakt
@@ -100,7 +100,7 @@ export function SiteHeader() {
               ))}
               <li className="mt-2">
                 <Link
-                  href="#kontakt"
+                  href="/kontakt"
                   onClick={() => setOpen(false)}
                   className="block rounded-full bg-[var(--accent)] py-2.5 text-center text-sm font-semibold text-[var(--bg)] transition hover:brightness-110"
                 >

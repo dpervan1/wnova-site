@@ -3,10 +3,10 @@ import Image from "next/image";
 import { InstagramIcon } from "@/components/social-icons";
 
 const links = [
-  { label: "Usluge", href: "#usluge" },
-  { label: "Paketi", href: "#paketi" },
-  { label: "O nama", href: "#o-nama" },
-  { label: "Kontakt", href: "#kontakt" },
+  { label: "Usluge", href: "/usluge" },
+  { label: "Paketi", href: "/paketi" },
+  { label: "O nama", href: "/o-nama" },
+  { label: "Kontakt", href: "/kontakt" },
 ] as const;
 
 const socialLinks = [

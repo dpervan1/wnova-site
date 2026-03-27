@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
     sitemap: "https://wnova.cc/sitemap.xml",
-    host: "https://wnova.cc",
+    host: "wnova.cc",
   };
 }
